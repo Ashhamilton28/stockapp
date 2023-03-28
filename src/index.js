@@ -2,7 +2,7 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Stock from "./components/Stock";
 import Dashboard from "./components/Dashboard";
-import Contact from "./components/Contact";
+
 
 import {
   createBrowserRouter,
@@ -29,10 +29,6 @@ const router = createBrowserRouter([
   {
     path: "/stocks",
     element: <Dashboard />
-  },
-  {
-    path: "/contact",
-    element: <Contact />
   }
 
 
